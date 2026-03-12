@@ -13,7 +13,53 @@ min-height: 100%;
 z-index: -1;
 object-fit: cover;
 }
+body{
+margin:0;
+font-family:Arial;
+background:#111;
+}
 
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgb(220, 130, 13);
+padding:15px 40px;
+}
+
+/* Logo */
+
+.logo{
+color:rgb(224, 147, 13);
+font-size:28px;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+/* Navigation Links */
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.nav-links li a{
+text-decoration:none;
+color:white;
+font-size:16px;
+transition:0.3s;
+}
+
+/* Hover Effect */
+
+.nav-links li a:hover{
+color:rgb(202, 132, 20);
+border-bottom:2px solid rgba(214, 138, 18, 0.822);
+padding-bottom:3px;
+}
 .content{
 position: relative;
 color: white;
